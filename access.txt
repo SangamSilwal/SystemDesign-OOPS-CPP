@@ -1,0 +1,10 @@
+Access Modifiers:
+In cpp classes we can control the access to the memebver of the class using access specifiers also known as access Modifiers
+
+In cpp there are 3 access specifiers that are:
+1> public: Memeber declared as public can be accessed from outside the class
+2> private: Memeber declared as private can only be accessed within the class itself
+3> Protected: Members declared as Protected can be acceses within the class and by derived class
+
+
+
