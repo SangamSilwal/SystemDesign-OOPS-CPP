@@ -19,3 +19,15 @@ using constructor
 
 While initializing we need to use a scope resolution operator "::"
 syntax : datatype class_name::var_name = value...;
+
+
+static memeber fucntion:
+Static member function is the function that is defined as static
+The staticMember function has the following properties:
+1> Static memeber function is independent of any object of the class
+2> A satic member function can be called even if no object of the class exists
+3> A static member fucntion can be accessed using the class name with the help of scope resolution operattor
+4> A static member fucntion can access static data members and static function inside or outside of the class
+5> Static member functions have a scope inside the class and cannot access the current object pointer.
+
+
