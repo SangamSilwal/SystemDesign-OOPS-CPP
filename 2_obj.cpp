@@ -35,3 +35,8 @@ int main()
     g1.printname();
     g1.printid();
 }
+
+
+
+
+

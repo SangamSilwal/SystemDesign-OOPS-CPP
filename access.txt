@@ -7,4 +7,15 @@ In cpp there are 3 access specifiers that are:
 3> Protected: Members declared as Protected can be acceses within the class and by derived class
 
 
+Static data Memebers:
+Static data members are the class memebers that are declared using static keyword
+The characteristics of the staic keyword are:
+1> Only one copy of that memeber is created throughout the program
+2> It is initialized before any object of the class is created 
 
+Note: We cannot initialized the static data member inside the class
+due to the class rules and the fact that we cannot assign it a value
+using constructor
+
+While initializing we need to use a scope resolution operator "::"
+syntax : datatype class_name::var_name = value...;
